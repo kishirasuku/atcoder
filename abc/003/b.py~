@@ -1,0 +1,10 @@
+s=raw_input()
+t=raw_input()
+
+for i in range(s):
+    if(s[i]==t[i]):
+        continue
+    elif(s[i] != '@' && t[i] != '@'):
+        print "You will lose"
+        return 
+        

@@ -1,6 +1,0 @@
-a=30
-
-if 5<a<25:
-    print "ok"
-else:
-    print "no"

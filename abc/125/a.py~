@@ -1,0 +1,5 @@
+a,b,t=map(int,raw_input().split())
+
+sums=0
+for i in range(0,t+1,a):
+    

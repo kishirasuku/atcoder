@@ -1,0 +1,4 @@
+def main():
+    today = raw_input()
+    today.split("/")
+    print today

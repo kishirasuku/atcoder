@@ -1,0 +1,4 @@
+human_num,foot_num = map(int,raw_input().split())
+
+for baby in range(human_num,-1,-1):
+    

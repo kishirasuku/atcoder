@@ -1,0 +1,8 @@
+def main():
+    lim_time = input()
+    make_num = input()
+    tako_cook = map(int,raw_input().split())
+    custmor_num = input()
+    come_time = map(int,raw_input().split())
+
+    

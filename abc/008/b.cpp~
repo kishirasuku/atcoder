@@ -1,0 +1,30 @@
+#include<iostream>
+#include<string>
+
+class Candidate_data{
+private:
+  std::string name;
+  int voted_num = 0;
+
+public:
+  void voted(){
+    voted_num++;
+  }
+};
+
+int main(){
+  int vote_sums;
+  std::cin >> vote_sums;
+  std::vector<Candidate_data> datas;
+
+  for(int i=0;i<vote_sums;i++){
+    std::string names;
+    std::cin >> names;
+    
+    for(Candidate_data& c:datas){
+      if(c.name.compare(names)){
+	c.voted();
+      }
+    }
+  }
+}
